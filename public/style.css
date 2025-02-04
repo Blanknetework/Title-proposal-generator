@@ -1,7 +1,7 @@
-body{
+body {
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(135deg, #4facfe, #00f2fe);
-    color: #fff;
+    background: #121212;
+    color: rgba(255, 255, 255, 0.85);
     text-align: center;
     margin: 0;
     padding: 0;
@@ -10,16 +10,16 @@ body{
 .container {
     max-width: 500px;
     margin: 50px auto;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
     padding: 30px;
     border-radius: 15px;
     backdrop-filter: blur(10px);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.btn{
+.btn {
     display: inline-block;
-    background: #ff9800;
+    background: #607d8b; 
     color: #fff;
     padding: 10px 20px;
     margin: 10px;
@@ -30,12 +30,13 @@ body{
     transition: 0.3s ease-in-out;
 }
 
-.btn:hover{
-    background: #ff5722;
+.btn:hover {
+    background: #455a64; 
 }
 
-.title-box{
-    background: rgba(255, 255, 255, 0.3);
+
+.title-box {
+    background: rgba(255, 255, 255, 0.2);
     padding: 20px;
     margin: 20px auto;
     font-size: 20px;

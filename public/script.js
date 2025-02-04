@@ -1,5 +1,5 @@
 function generateTitle() {
-    fetch("generate")
+    fetch("/generate")
         .then(response => response.text())
         .then(title => {
             document.getElementById("generatedTitle").textContent = title;
@@ -22,3 +22,4 @@ function saveTitle() {
         .then(data => alert(data))     
         .catch(error => console.error("Error:", error));        
 }
+
